@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakdance Style Extractor</title>
+    <style>
+        body {
+            width: 350px;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            margin: 0;
+        }
+        h1 {
+            font-size: 18px;
+            margin: 0 0 15px 0;
+            color: #5D4396;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #5D4396;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        button:hover {
+            background: #4a3578;
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .status {
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 13px;
+            margin-top: 10px;
+            display: none;
+        }
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            display: block;
+        }
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            display: block;
+        }
+        .info {
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Breakdance Style Extractor</h1>
+    <button id="extractBtn">Extract Styles from Page</button>
+    <div id="status" class="status"></div>
+    <div class="info">
+        Click the button to analyze the current page and extract colors, typography, and button styles. The JSON file will be downloaded automatically.
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
