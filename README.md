@@ -48,7 +48,7 @@ A Chrome extension that analyzes any website and extracts design styles into a B
    ```
 
 2. **Create Icon Files** (if not included)
-   - Create three PNG images: `icon16.png`, `icon48.png`, `icon128.png`
+   - To customize branding: Create three PNG images: `icon16.png`, `icon48.png`, `icon128.png`
    - Place them in the extension folder
    - Simple colored squares work fine as placeholders
 
@@ -56,7 +56,7 @@ A Chrome extension that analyzes any website and extracts design styles into a B
    - Open Chrome and navigate to `chrome://extensions/`
    - Enable "Developer mode" (toggle in top-right corner)
    - Click "Load unpacked"
-   - Select the `breakdance-extractor` folder
+   - Select the `breakdance-styles-extractor` folder
 
 4. **Pin the Extension** (Optional)
    - Click the puzzle piece icon in Chrome toolbar
