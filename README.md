@@ -44,7 +44,7 @@ A Chrome extension that analyzes any website and extracts design styles into a B
 
 1. **Download or Clone this Repository**
    ```bash
-   git clone https://github.com/yourusername/breakdance-style-extractor.git
+   git clone https://github.com/yourusername/breakdance-styles-extractor.git
    ```
 
 2. **Create Icon Files** (if not included)
